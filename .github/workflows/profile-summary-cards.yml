@@ -21,3 +21,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.STATS }}
         with:
           USERNAME: ${{ github.repository_owner }}
+          EXCLUDE: "vue"
