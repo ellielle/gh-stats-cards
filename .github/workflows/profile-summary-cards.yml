@@ -21,4 +21,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.STATS }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          EXCLUDE: "vue"
+          UTC_OFFSET: -5
+          EXCLUDE: "Vue"
